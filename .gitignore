@@ -1,0 +1,71 @@
+# --- Node.js ---
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Build artifacts and caches
+dist/
+build/
+.cache/
+
+# --- Python & uv ---
+# Virtual environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# uv / pip build and cache directories
+.uv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+develop-eggs/
+dist/
+build/
+eggs/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Local coverage and databases
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.html
+.hypothesis/
+.pytest_cache/
+*.sqlite3
+
+# Local environment variables
+.env
+.env.*
+.venv*
+
+# IDE & OS specific (optional but recommended)
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
